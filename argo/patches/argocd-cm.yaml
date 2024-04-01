@@ -5,4 +5,5 @@ metadata:
 data: 
   timeout.reconciliation: 300s
   accounts.asher: apiKey, login
+  accounts.gitops-ci: apiKey
   admin.enabled: "false"
