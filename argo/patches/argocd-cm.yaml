@@ -5,3 +5,4 @@ metadata:
 data: 
   timeout.reconciliation: 300s
   accounts.asher: apiKey, login
+  admin.enabled: "false"
