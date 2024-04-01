@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata: 
   name: argocd-cm 
 data: 
-  timeout.reconciliation: 300s
+  timeout.reconciliation: 100s
   accounts.asher: apiKey, login
   accounts.gitops-ci: apiKey
   admin.enabled: "true"
