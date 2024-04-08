@@ -6,7 +6,7 @@ spec:
  destination:
    namespace: argocd
    server: https://kubernetes.default.svc
- project: default
+ project: argocd
  source:
    path: argo
    repoURL: https://github.com/cisco-ashekham/argocd-playground.git
